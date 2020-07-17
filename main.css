@@ -164,11 +164,24 @@ ul {
   padding-top: 30px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
+
+ 
+
   .container{
     padding-top: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 60px;
   }
+  .heyimshubham{
+    font-size: 60px;
+  }
+
+  .showme {
+  width: 150px;
+  height: 100px;
+  font-size: large;
+  
+}
 
   .techstackli{
     display: flex;
