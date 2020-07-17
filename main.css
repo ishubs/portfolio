@@ -164,20 +164,21 @@ ul {
   padding-top: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
 
  
 
-  .container{
-    padding-top: 80px;
-  padding-bottom: 60px;
+  #container{
+    padding-top: 150px;
+  padding-bottom: 250px;
+
   }
   .heyimshubham{
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .showme {
-  width: 150px;
+  width: 250px;
   height: 100px;
   font-size: large;
   
