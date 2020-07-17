@@ -1,0 +1,201 @@
+html {
+  color: black;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  background-color: black;
+  font-family: "Permanent Marker";
+}
+
+* {
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+#container {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.heyimshubham {
+  font-size: 60px;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+}
+
+.imfrontend {
+  color: white;
+  font-family: "Permanent Marker";
+}
+.btncontainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.showme {
+  width: 150px;
+  height: 50px;
+  background: white;
+  color: black;
+  border: black;
+  border-radius: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: "Permanent Marker";
+}
+
+.showme:hover{
+
+ 
+  cursor: pointer;
+  animation: show 1s infinite ;
+}
+
+@keyframes show{
+   from {width: 150px;}
+  to {width: 300px;font-size: large;}
+}
+
+#container2 {
+  padding-bottom: 80px;
+  background-color: white;
+}
+
+.techstack {
+  color: black;
+  font-family: "Permanent Marker", cursive;
+  margin-top: 0px;
+}
+
+.techstackli {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: black;
+}
+
+li {
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.techstackli ul img {
+  height: 100px;
+  width: 130px;
+}
+
+/* card styles */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+
+}
+
+
+
+.container3 {
+}
+
+.cardholder {
+  padding-left: 50px;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+/* waves */
+
+.wave {
+  background-image: url(./2.png);
+  height: 160px;
+  width: 100%;
+}
+
+/* styling buttons  */
+#viewlive {
+
+  background-color: black;
+  height: max-content;
+  font-family: 'Permanent Marker';
+  border-radius: 20px;
+  
+  color: white;
+  height: 40px;
+  width: 100px;
+
+}
+
+#viewlive:hover{
+  background-color: rgba(0, 0, 255, 0.342);
+  cursor: pointer;
+}
+
+#letsconnect{
+  background-color: white;
+}
+
+#textletsconnect{
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .container{
+    padding-top: 80px;
+  padding-bottom: 150px;
+  }
+
+  .techstackli{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardholder{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 20px;
+    align-content: space-around;
+    justify-content: space-around;
+  }
+
+  img{
+    width: 60%;
+    
+  }
+
+  .card{
+    width: 100%;
+  }
+}
+
+/* style of images */
+.letsconnect{
+  width: 100px;
+  height: 100px;
+}
